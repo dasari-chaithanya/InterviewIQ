@@ -1,4 +1,4 @@
-﻿# InterviewIQ — AI-Powered Interview Platform
+# InterviewIQ — AI-Powered Interview Platform
 
 InterviewIQ is a full-stack AI-powered interview platform designed to help candidates practise technical interviews, receive structured feedback, and track their progress. It combines conversational AI, voice processing, coding assessments, resume analysis, and interview analytics in one application.
 
@@ -6,7 +6,7 @@ InterviewIQ is a full-stack AI-powered interview platform designed to help candi
 
 ## Demo
 
-Watch the end-to-end demo: [InterviewIQ demo video](images/demo.mp4)
+▶ [Watch the InterviewIQ demo](images/demo.mp4)
 
 The demo shows the interview workflow, answer submission, AI-generated evaluation, and completed report.
 
@@ -14,17 +14,17 @@ The demo shows the interview workflow, answer submission, AI-generated evaluatio
 
 ## Screenshots
 
-**Dashboard and interview setup**
+### Dashboard and interview setup
 
 ![Dashboard](images/01-dashboard.png)
 ![Setup wizard](images/02-setup.png)
 
-**Interview experiences**
+### Interview experiences
 
 ![Text interview](images/03-text-interview.png)
 ![Voice interview](images/04-voice-interview.png)
 
-**Results and history**
+### Results and history
 
 ![Evaluation report](images/05-report.png)
 ![Interview history](images/06-history.png)
@@ -154,11 +154,9 @@ Exact versions, service ports, model downloads, and optional integrations should
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/interviewiq.git
-cd interviewiq
+git clone https://github.com/dasari-chaithanya/InterviewIQ.git
+cd InterviewIQ
 ```
-
-> Replace `YOUR_GITHUB_USERNAME` with the actual GitHub username before publishing.
 
 ### 2. Install dependencies
 
