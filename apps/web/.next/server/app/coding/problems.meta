@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(app)/layout,_N_T_/(app)/coding/layout,_N_T_/(app)/coding/problems/layout,_N_T_/(app)/coding/problems/page,_N_T_/coding/problems"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGFwcCk/coding/problems/__PAGE__",
+    "/!KGFwcCk/coding/problems",
+    "/!KGFwcCk/coding",
+    "/!KGFwcCk",
+    "/_index",
+    "/_head"
+  ]
+}

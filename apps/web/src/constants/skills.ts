@@ -1,0 +1,22 @@
+export const skillsList = [
+  "React",
+  "Next.js",
+  "Node.js",
+  "Java",
+  "Python",
+  "SQL",
+  "MongoDB",
+  "PostgreSQL",
+  "Docker",
+  "AWS",
+  "Git",
+  "TypeScript",
+  "JavaScript",
+  "C++",
+  "C#",
+  "Go",
+  "Rust",
+  "GraphQL",
+  "Redis",
+  "Kubernetes"
+];

@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# api build output + prisma engines are regenerated
+dist/
+*.db
+*.sqlite*
+
+# python (local AI sidecars)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+*.egg-info/
+
+# downloaded AI voices/models (re-downloaded via READMEs, never committed)
+services/*/voices/
+services/*/.cache/
+
+# playwright + test artifacts
+test-results/
+playwright-report/
+playwright/.auth/
+blob-report/
+
+# coverage anywhere in the monorepo
+coverage/
+
+# local logs and temp audio
+*.log
+*.wav
+*.mp3
+
+# multer temp uploads (never commit user files)
+uploads/
+
+# OS / editor
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
